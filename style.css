@@ -1,0 +1,157 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(97, 90, 88);
+  }
+  
+  .bar {
+    padding-top: 1rem;
+    background-color: rgb(97, 90, 88);
+    color: rgb(28, 29, 28);
+  }
+  
+  .bar p {
+    left: 25rem;
+  }
+  
+  .intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('images/prayer-background.jpg');
+    background-position: center;
+    background-repeat: none;
+  }
+  
+  .intro img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .intro h1 {
+    color: #08f1cb;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(31, 26, 26, 0.918);
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    font-size: 1.3rem;
+  }
+  
+  .summary,
+  .testimonial,
+  .photos,
+  .meetup {
+    margin: 4em auto;
+  }
+  
+  .summary {
+    padding: 0 1rem;
+  }
+  
+  .summary p {
+    color: White;
+    font-size: 1.45rem;
+  }
+  
+  .testimonial {
+    background-color: teal;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: yellow;
+  }
+  
+  .testimonial h1 {
+    font-size: 2.3rem;
+    color: yellow;
+  }
+  
+  .testimonial p{
+    color : white;
+    font-size: 1.2rem;
+  }
+  .summary h2 {
+    color: yellow;
+    font-size: 2rem;
+  }
+  
+  .photos img {
+    width: 30%;
+    margin: 1.5%;
+  }
+  
+  .meetup {
+    margin-bottom: 2rem;
+  }
+  
+  .meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .meetup h2,
+  .meetup h1 {
+    color: yellow;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1048px) {
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+  
+    .intro h1 {
+      margin-top: 2rem;
+    }
+
+    .intro {
+      max-height: 200px;
+    }
+  
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+    .testimonial h1 {
+      font-size: 2rem;
+    }
+  
+    .photos img {
+      width: 100%;
+    }
+  }
+  
